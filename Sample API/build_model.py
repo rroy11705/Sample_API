@@ -33,6 +33,3 @@ def build_model():
     path = 'Lib/Models/Survival.pkl'
     print("Training Complete")
     model.pickle_clf(path)
-
-if __name__ == "__main__":
-    build_model()
