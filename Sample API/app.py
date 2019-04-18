@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 import pickle
 from model import KNeighbor_Model
+from build_model import build_model
 import numpy as np
 
 app = Flask(__name__)
